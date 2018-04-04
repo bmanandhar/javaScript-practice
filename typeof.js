@@ -22,7 +22,6 @@ typeof String('abc') === 'string', // but never uses this form
 typeof true === 'boolean',
 typeof false === 'boolean',
 typeof Boolean(true) === 'boolean',
-typeof true === 'boolean',
 
 //Symbols
 typeof Symbol() === 'symbol',
