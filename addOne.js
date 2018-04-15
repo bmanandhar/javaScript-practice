@@ -1,6 +1,6 @@
 /*
 Function that works with an array as a car
-odometerby adding 1 to the last integer,
+odometer by adding 1 to the last integer,
 all elements of array are between 0 and 9.
 [1,2,3] --> [1,2,4],
 [9,8,7] --> [9,8,8],
@@ -33,4 +33,4 @@ console.log(addOne([1,2,3]));//=[1,2,4]
 console.log(addOne([9,8,7]));//=[9,8,8]
 console.log(addOne([6,5,9]));//=[6,6,0]
 console.log(addOne([3,9,9]));//=[4,0,0]
-console.log(addOne([9,9,9]));//[1,0,0,0]
+console.log(addOne([9,9,9]));//=[1,0,0,0]
